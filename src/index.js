@@ -2,12 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/app'
 import './styles/app.scss'
-import { AppContainer } from 'react-hot-loader'
+import { AppContainer } from 'react-hot-loader';
+
 
 const render = Component => {
   ReactDOM.render(
     <AppContainer>
-      <Component />
+    	
+      		<Component />
+      	
     </AppContainer>,
     document.getElementById('app')
   )
