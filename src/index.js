@@ -1,22 +1,21 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './components/app'
-import './styles/app.scss'
+/* eslint-disable */
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
+import App from './components/app';
+import './styles/app.scss';
 
 
-const render = Component => {
+const render = Component => (
   ReactDOM.render(
     <AppContainer>
-    	
-      		<Component />
-      	
+      <Component />
     </AppContainer>,
-    document.getElementById('app')
+    document.getElementById('app'),
   )
-}
+);
 
-render(App)
+render(App);
 if (module.hot) {
-  module.hot.accept('./components/app', () => { render(App) })
+  module.hot.accept('./components/app', () => { render(App); });
 }
