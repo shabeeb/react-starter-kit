@@ -1,12 +1,12 @@
 # react-starter-kit
 A simple react starter kit with bebal, webpack, hot-reloader and eslint
 
-#Install#
+# Install
         npm install
         npm run dev -- To start dev server
 
 
-#Scripts#
+# Scripts
 		npm run build		--  Production build
         npm start			--  Run production server 
         npm run dev		  --  Run development server with hot-reload
