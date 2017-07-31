@@ -22,3 +22,6 @@ To remove eslint validation remove below lines (line 25 to 30) of code from webp
         exclude: /node_modules/,
         loader: "eslint-loader",
       },
+
+Checkout my blog for <a href="http://shabeebk.com/blog/start-with-react/"> more info</a>
+
