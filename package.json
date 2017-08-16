@@ -6,7 +6,8 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node server.js",
-    "dev": "webpack-dev-server --hot --history-api-fallback --open"
+    "dev": "webpack-dev-server --hot --history-api-fallback --open",
+    "test": "mocha"
   },
   "keywords": [
     "react"
@@ -27,9 +28,11 @@
     "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.1",
     "cross-env": "^5.0.1",
     "css-loader": "^0.28.4",
     "enhanced-resolve": "^3.4.1",
+    "enzyme": "^2.9.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.2",
     "eslint-loader": "^1.9.0",
@@ -37,9 +40,12 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "file-loader": "^0.11.2",
+    "mocha": "^3.5.0",
     "node-sass": "^4.5.3",
+    "react-addons-test-utils": "^15.6.0",
     "react-hot-loader": "^3.0.0-beta.6",
     "sass-loader": "^6.0.6",
+    "sinon": "^3.2.0",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
     "webpack": "^3.3.0",
