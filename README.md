@@ -10,6 +10,7 @@ A simple react starter kit with bebal, webpack, hot-reloader and eslint
 		npm run build		--  Production build
 		npm start			--  Run production server 
 		npm run dev		  	--  Run development server with hot-reload
+		npm run test		  	--  Run test cases
 
 
 
