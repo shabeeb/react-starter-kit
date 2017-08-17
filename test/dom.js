@@ -1,4 +1,3 @@
-/* dom.js */
 var jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
